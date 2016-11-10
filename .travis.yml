@@ -10,7 +10,7 @@ git:
 env:
   global:
     - DEBIAN_FRONTEND=noninteractive
-    - PACKAGE=libusb-1.0-0-dev
+    - PACKAGE=gcc-6
     - ISSUE_REPO=apt-package-whitelist
     - ISSUE_NUMBER=3584
     - DIST=trusty
