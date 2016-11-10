@@ -6,7 +6,7 @@ SSH_OPTS='-o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -q'
 
 BUILD_URL="https://travis-ci.org/${TRAVIS_REPO_SLUG}/builds/${TRAVIS_BUILD_ID}"
 ISSUE_REPO=${ISSUE_REPO:-"apt-package-whitelist"} # name of the repo that has issues, under "travis-ci"
-GITHUB_ISSUES_URL="https://api.github.com/repos/travis-ci/${ISSUE_REPO}/issues/${ISSUE_NUMBER}"
+GITHUB_ISSUES_URL="https://api.github.com/repos/janisozaur/${ISSUE_REPO}/issues/${ISSUE_NUMBER}"
 
 echo "Copying build.sh"
 cp build.sh common.sh add_sources.rb $HOME/build
